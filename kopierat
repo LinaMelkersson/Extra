@@ -1,0 +1,8 @@
+content: "";
+display: inline-block;
+width: {width of background img};
+height: {height of background img};
+background-image: url("/path/to/img.png");
+background-repeat: no-repeat;
+position: relative;
+left: -5px; //adjust your positioning as necessary

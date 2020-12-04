@@ -1,0 +1,37 @@
+.animeradeloggor {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    animation: bounce 3s 0.5s linear infinite;
+}
+
+.animation1 {
+    animation-delay: 0s;
+    filter: grayscale(100%);
+}
+.animation2 {
+    animation-delay: 0.1s;
+    filter: grayscale(100%);
+}
+
+.animation3 {
+    animation-delay: 0.2s;
+    filter: grayscale(100%);
+}
+
+.animation4 {
+    animation-delay: 0.3s;
+    filter: grayscale(100%);
+}
+
+@keyframes bounce {
+    0%, 50%, 100% {
+        transform: scale(0.6);
+    }
+    25% {
+        transform: scale(0.6);
+    }
+    75% {
+        transform: scale(1.4);
+    }
+}

@@ -1,0 +1,41 @@
+.logga {
+    height: 3rem;
+   
+}
+
+.glasbild {
+    height: 2rem;
+}
+
+.datorn {
+    position: relative;
+    width: 40vw;
+    height: 40rem;
+    margin: auto;
+
+}
+
+#datorbild {
+    position: absolute;
+    left: 0;
+
+}
+
+#playknapp {
+    position: absolute;
+    left: 40%;
+    bottom: 5%;
+}
+
+.processbilden {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blacksquare {
+    height: 40rem;
+    position: absolute;
+    left: -20%;
+}
+
