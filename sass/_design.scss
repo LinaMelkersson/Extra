@@ -185,5 +185,76 @@ header hr {
     color: #F8F9FE;
 }
 
+.contactus:hover {
+    outline: none;
+    border: 3px solid rgba(26, 25, 23, 0.349);
 
+}
+
+.box2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 17vw;
+    overflow: hidden;
+}
+
+.box2 h5 {
+    color: #FFA62E;
+
+}
+
+.boxtext {
+    padding: 1.5rem;
+}
+
+.boxbutton {
+    margin-top: 2rem;
+    width: 10rem;
+    background-image: linear-gradient(to right, #EE307A, #FFA62E);
+    border: none;
+    border-radius: 9px;
+    padding: 1rem;
+    color: #F8F9FE;
+}
+
+.boxbutton:hover {
+    outline: none;
+    border: 3px solid rgba(26, 25, 23, 0.349);
+}
+
+.insights {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.insightstext {
+    text-align: center;
+    width: 30vw;
+    padding-bottom: 3rem;
+}
+
+.insightstext h2 {
+    font-weight: bold;
+    font-size: 30pt;
+    padding-bottom: 1rem;
+}
+
+.review {
+    margin-top: 10vw;
+    position: relative;
+    height: 50vw;
+}
+
+#bildochtext {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: absolute;
+}
+
+#bildochtext h2 {
+    font-weight: bold;
+    font-size: 30pt;
+}
 

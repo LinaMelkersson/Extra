@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <script src="https://kit.fontawesome.com/ef4c0722a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    
     <link rel="stylesheet" href="css/style.min.css">
      
     <title>Mattin-Lassei</title>
@@ -183,13 +183,104 @@
 
     <section class="container">
         <div class="review">
-
+            <div id="bildochtext">
+                <div class="imgbox">
+                    <img id="reviewbox" src="img/blacksquare.svg" alt="">
+                </div>
+                <div class="textboxen">
+                    <h2>Review from our customers</h2>
+                    <p>You can help customers in real-time across all of your channels from email & social.</p>
+                </div>
+            </div>
         </div>
     </section>
+
     <section class="container">
         <div class="insights">
-
+            <div class="insightstext">
+                <h2>Latest insights news the industry</h2>
+                <p>You can help customers in real-time across all of your channels from email, social, website, iOS, and android apps.</p>
+            </div>
         </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <div class="box2">
+                          <div class="boxbild">
+                            <img class="bildibox" src="img/blacksquare.svg" alt="">
+                          </div>
+                          <div class="boxtext">
+                            <h5>November 20,2020</h5>
+                            <h4>Best domain name for student ever</h4>
+                            <p>Lorem ipsum dolor sit amet elit ed onsectetur adipiscing  do eiusmod tempor incididunt ut labore </p>
+                            <button class="boxbutton">
+                                READ MORE
+                            </button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="box2">
+                        <div class="boxbild">
+                          <img class="bildibox" src="img/blacksquare.svg" alt="">
+                        </div>
+                        <div class="boxtext">
+                          <h5>November 20,2020</h5>
+                          <h4>Best domain name for student ever</h4>
+                          <p>Lorem ipsum dolor sit amet elit ed onsectetur adipiscing  do eiusmod tempor incididunt ut labore </p>
+                          <button class="boxbutton">
+                              READ MORE
+                          </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box2">
+                        <div class="boxbild">
+                          <img class="bildibox" src="img/blacksquare.svg" alt="">
+                        </div>
+                        <div class="boxtext">
+                          <h5>November 20,2020</h5>
+                          <h4>Best domain name for student ever</h4>
+                          <p>Lorem ipsum dolor sit amet elit ed onsectetur adipiscing  do eiusmod tempor incididunt ut labore </p>
+                          <button class="boxbutton">
+                              READ MORE
+                          </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box2">
+                        <div class="boxbild">
+                          <img class="bildibox" src="img/blacksquare.svg" alt="">
+                        </div>
+                        <div class="boxtext">
+                          <h5>November 20,2020</h5>
+                          <h4>Best domain name for student ever</h4>
+                          <p>Lorem ipsum dolor sit amet elit ed onsectetur adipiscing  do eiusmod tempor incididunt ut labore </p>
+                          <button class="boxbutton">
+                              READ MORE
+                          </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box2">
+                        <div class="boxbild">
+                          <img class="bildibox" src="img/blacksquare.svg" alt="">
+                        </div>
+                        <div class="boxtext">
+                          <h5>November 20,2020</h5>
+                          <h4>Best domain name for student ever</h4>
+                          <p>Lorem ipsum dolor sit amet elit ed onsectetur adipiscing  do eiusmod tempor incididunt ut labore </p>
+                          <button class="boxbutton">
+                              READ MORE
+                          </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
     </section>
     <section class="container">
         <div class="getstarted">
@@ -209,6 +300,20 @@
             </div>
         </section>
     </footer>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          freeMode: true,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+        });
+      </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
